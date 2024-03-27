@@ -1,0 +1,130 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E9F0EE;
+}
+section {
+    margin: 2rem 0;
+    /* box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.4),
+                -1px 6px 12px -1px rgba(0, 0, 0, 0.2); */
+}
+.banner-container {
+    margin: 0 0 2rem 0;
+    background-image: url(/img/Icehill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: linear-gradient(to bottom,#0076CE,#1560bd,#1F305E); */
+}
+
+.banner-column {
+    /* background-color: #00BDBD; */
+    /* background-image: linear-gradient(to left, #FF0800, #C60C30, #9e1b32); */
+    background: transparent;
+    backdrop-filter: blur(16px);
+    box-shadow: 2px 4px 8px -1px rgba(0,0,0, 0.5),
+                -2px 8px 16px 1px rgba(0,0,0, 0.2);
+}
+
+.main-heading {
+    font-weight: 600;
+    font-style: oblique;
+    font-family: "Verdana", Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4),
+                 -1px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sub-heading {
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4),
+                 -1px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.navbar-container{
+    top: 0;
+    background-color: #262B37;
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container {
+    background-color:#7778A7;
+   /* background: linear-gradient(to left,#22dede, #00BDBD, #008989); */
+   /* box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.4),
+                -1px 6px 12px 0px rgba(0, 0, 0, 0.2); */
+}
+
+.education-container{
+    /* background-image: linear-gradient(to right, #FF0800, #C60C30, #9e1b32); */
+    background-color: #91A29D ;
+}
+
+.project-container {
+    background-color: #9E6B66;
+}
+
+
+.portfolio {
+    /* background-image: linear-gradient(to right,#FF4500,#FF4F00, #FF5E0E); */
+    background-color: #DECC62;
+}
+
+.form-container{
+    background-color: #474D5D;
+}
+
+.bummy-box{
+    font-size: 72px;
+}
+
+.bg-redtype{
+    background-color: #FB857F;
+}
+
+.bg-redtype:hover{
+     color: black!important;
+}
+
+.redtype-color{
+    color: #FB857F;
+}
+
+.circle-edu{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+     
+}
+.inner-form{
+    background-color: #585F73;
+}
+
+.footer{
+    background-color: #2BB3DD;
+    margin-bottom: none;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  font-size: 40px;
+  text-align: center;
+  color: #2BB3DD;
+
+}
+.circle:hover {
+    background-color: #474D5D;
+}
+
+.heading-2nd {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4),
+                 -2px 6px 12px rgba(0, 0, 0, 0.2);
+}
